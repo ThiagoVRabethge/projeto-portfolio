@@ -1,9 +1,17 @@
+/* RESET CSS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-margin: 0;
+}
+
+/* GENERAL CSS */
+
+.container {
+  width: 70%;
 }
 
 ul,
@@ -23,8 +31,22 @@ li {
   margin-top: 15px;
 }
 
+/* HEADER CSS */
+
 .header-container {
   width: 100%;
+}
+
+q {
+  font-style: italic;
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
 }
 
 .header-grid {
@@ -44,52 +66,19 @@ li {
   opacity: 0.9;
 }
 
-.main-container {
+/* MAIN CSS */
+
+/* FOOTER CSS */
+
+#contato {
   width: 100%;
-}
-
-.main-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.footer-wrapper {
-  width: 100%;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.footer-list {
-  list-style-type: none;
-}
-
-.footer-link {
-  text-decoration: none;
-}
-
-.social-medias:hover {
-  opacity: 0.9;
-}
-
-.rows-grid {
-  display: grid;
-  grid-template-rows: 33.33% 33.33% 33.33%;
-  gap: 5px;
-}
-
-.rows-grid-item {
-  padding: 15px;
-}
-
-label {
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-input {
-  width: 90%;
+  width: 100%;
+  margin-bottom: 30px;
   padding: 10px;
   border-radius: 5px;
   font-size: medium;
@@ -101,18 +90,27 @@ label {
   outline: none;
 }
 
-.fetch-button {
-  margin-top: 5px;
+.buttons-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-buttons {
   border: 1px solid black;
   border-radius: 3px;
   color: black;
   padding: 5px;
-  text-decoration: none;
+  width: 100px;
 }
 
-.fetch-button:hover {
+.contact-buttons:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
+
+/* NAV CSS */
 
 .nav-wrapper {
   position: fixed;
@@ -121,12 +119,18 @@ label {
 }
 
 .nav-flex {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-basis: 33.33% 33.33% 33.33%;
   justify-content: space-around;
 }
+
+.nav-link:hover {
+  opacity: 0.9;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 700px) {
   .header-container {

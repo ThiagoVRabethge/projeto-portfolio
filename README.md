@@ -4,7 +4,7 @@ Um projeto simples de portfólio, para armazenar alguns dos meus projetos e apre
 
 ## Inicializando o repositório
 
-Você pode conferir o projeto acessando http://rvolpithiago.infinityfreeapp.com/, mas caso queira vê-lo em ambiente de desenvolvimento, você pode clonar esse repositório localmente, abrir o diretório com o Visual Studio Code, instalar a extensão Live Server e, clicando com o botão direito no arquivo index.html e selecionando a opção "Open With Live Server" você já conseguirá ver o resultado do código.
+Você pode acessar https://thiagovrabethge.github.io/projeto-portfolio/ para ver no ambiente de produção da GitHub, para ver em ambiente de desenvolvimento, você pode clonar esse repositório localmente, abrir o diretório com o Visual Studio Code, instalar a extensão Live Server e clicando com o botão direito no arquivo index.html, selecionando a opção "Open With Live Server" já será possível ver o projeto em ambiente de desenvolvimento, pronto para edição.
 
 ## Construção
 
@@ -12,11 +12,12 @@ Para esse projeto, optei por um Layout minimalista, para que a página fosse for
 
 ## Ciclo de desenvolvimento
 
-No que tange ao futuro do projeto, a intenção é que ele se transforme em uma plataforma para contratação Freelancer ou contrato/CLT, então Features como autenticação com protocolo OAuth 2 e formulários de contato deverão ser as próximas novidades a aparecer.
+Os próximos passos do projeto deveram ser a criação de um fórum para Feedback e dúvidas, onde haverá a opção de comentar via conta do Google ou anonimamente.
 
 ## Ferramentas
 
-As principais ferramentas utilizadas para o desenvolvimento deste projeto foram o editor Visual Sudio Code junto às extensões Live Server e Prettier, o Software Filezilla foi utilizado para hospedagem, cujo provedor foi o site InfinityFree, todas as imagens utilizadas nesse projeto foram retiradas do site https://icon-icons.com/.
+As principais ferramentas utilizadas para o desenvolvimento deste projeto foram o editor Visual Sudio Code junto às extensões Live Server e Prettier, para o processo de Deploy, foi utilizada a ferramenta da GitHub Pages, todos os ícones utilizados nesse projeto foram retiradas do site https://fonts.google.com/icons.
+Além disso, o formulário de contato foi feito utilizando o https://formsubmit.co/.
 
 ## Licença
 

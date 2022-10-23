@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Volpi Thiago | Portfólio</title>
+    <title>Projeto portfólio</title>
     <link
       rel="icon"
       type="image/x-icon"
-      href="img\code-optimization_icon-icons.com_53810.png"
+      href="img\data_object_FILL0_wght400_GRAD0_opsz48.svg"
     />
     <link rel="stylesheet" href="./index.css" />
   </head>
@@ -17,98 +17,74 @@
         <h1>Olá mundo!</h1>
         <p><i>Apresentação</i></p>
         <br />
-        <ul>
-          <li>● graduando em análise e desenvolvimento de sistemas</li>
-          <li>● experiência em desenvolvimento de sistemas</li>
-          <li>● experiência em suporte ao cliente</li>
-          <li>● Entusiasta de UX/UI</li>
-        </ul>
+        <q>Atuação em desenvolvimento e manutenção de sistemas</q>
         <div class="header-grid mt-20">
           <div>
-            <a class="header-button" href="#">Currículo</a>
+            <a
+              href="public\CV_THIAGO_V_RABETHGE.pdf"
+              class="header-button"
+              download="currículo_thiago_v_rabethge.pdf"
+            >
+              Currículo
+            </a>
           </div>
           <div class="mt-15">
-            <a class="header-button" href="#">Carta de apresentação</a>
+            <a
+              class="header-button"
+              href="public\CARTA_APRESENTAÇÃO_THIAGO_V_RABETHGE.pdf"
+              download="apresentação_thiago_v_rabethge.pdf"
+            >
+              Carta de apresentação
+            </a>
           </div>
         </div>
       </div>
     </header>
 
-    <main id="projetos">
-      <div class="main-container mt-20">
-        <div class="text-center">
-          <h2>Projetos</h2>
-        </div>
-        <div class="main-grid mt-20 text-center">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </main>
-
     <footer id="contato">
-      <div class="footer-wrapper">
-        <div class="footer-grid text-center">
-          <div>
-            <ul class="footer-list">
-              <li>
-                <a class="footer-link" href="#">
-                  <img
-                    class="social-medias"
-                    src="img\github-logo_icon-icons.com_73546.png"
-                    alt="logo do GitHub"
-                  />
-                </a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">
-                  <img
-                    class="social-medias"
-                    src="img\linkedin_black_logo_icon_147114.png"
-                    alt="logo do Linkedin"
-                  />
-                </a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">
-                  <img
-                    class="social-medias"
-                    src="img\iconfinder-codepen-4550862_121336.png"
-                    alt="logo do CodePen"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div class="rows-grid">
-              <div class="rows-grid-item">
-                <label for="mail">informe um e-mail para contato</label>
-                <br />
-                <input
-                  class="contact-input"
-                  name="mail"
-                  type="email"
-                  placeholder="e.x. doe.jane@outlook.com"
-                />
-              </div>
-              <div class="rows-grid-item">
-                <label for="mail">do que você precisa?</label>
-                <br />
-                <input
-                  class="contact-input"
-                  name="mail"
-                  type="email"
-                  placeholder="um site para o meu negócio!"
-                />
-              </div>
-              <div>
-                <button class="fetch-button" type="submit">Enviar</button>
-                <button class="fetch-button" type="reset">Limpar</button>
-              </div>
+      <div class="container mt-20">
+        <form
+          action="https://formsubmit.co/thiago.rabethge@gmail.com"
+          method="POST"
+        >
+          <label for="email">Insira um e-mail para contato</label>
+          <input
+            name="email"
+            class="contact-input"
+            type="email"
+            placeholder="seu.email@email.com"
+            required
+          />
+          <label for="demand">Do que você precisa?</label>
+          <input
+            name="demand"
+            class="contact-input"
+            type="text"
+            placeholder="um site para meu negócio!"
+            required
+          />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Vamos avaliar a sua demanda e entrar em contato assim que possível, obrigado"
+          />
+          <input
+            type="hidden"
+            name="_subject"
+            value="Novo contato através de site"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_next" value="http://localhost:5500/" />
+          <div class="buttons-flex">
+            <div>
+              <input class="contact-buttons" type="submit" value="enviar" />
+            </div>
+            <div>
+              <input class="contact-buttons" type="reset" value="limpar" />
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </footer>
 
@@ -118,27 +94,24 @@
           <div>
             <a class="nav-link" href="#inicio">
               <img
-                class="social-medias"
-                src="img\home_icon-icons.com_73532.png"
-                alt="ícone de casa"
+                src="img\home_app_logo_FILL0_wght400_GRAD0_opsz48.svg"
+                alt="ícone de casa, redireciona para a página inicial"
               />
             </a>
           </div>
           <div>
             <a class="nav-link" href="#projetos">
               <img
-                class="social-medias"
-                src="img\layer_interface_arrange_layers_design_icon_142329.png"
-                alt="ícone de projetos"
+                src="img\developer_mode_FILL0_wght400_GRAD0_opsz48.svg"
+                alt="ícone de projetos, redireciona para a sessão com os projetos"
               />
             </a>
           </div>
           <div>
             <a class="nav-link" href="#contato">
               <img
-                class="social-medias"
-                src="img\letter_mail_message_open_icon_229463.png"
-                alt="ícone de carta sendo aberta"
+                src="img\inbox_FILL0_wght400_GRAD0_opsz48.svg"
+                alt="ícone de e-mail, redireciona para o formulário de contato"
               />
             </a>
           </div>
