@@ -31,27 +31,21 @@ li {
   margin-top: 15px;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 /* HEADER CSS */
 
-.header-container {
-  width: 100%;
+.header-title {
+  background-color: black;
+  color: white;
+  padding: 15px;
 }
 
-q {
-  font-style: italic;
-}
-
-q:before {
-  content: open-quote;
-}
-
-q:after {
-  content: close-quote;
-}
-
-.header-grid {
-  display: grid;
-  grid-template-rows: 50% 50%;
+.header-body {
+  text-align: center;
+  margin-top: 25px;
 }
 
 .header-button {
@@ -67,6 +61,33 @@ q:after {
 }
 
 /* MAIN CSS */
+
+main {
+  width: 100%;
+}
+
+.main-row {
+  margin-top: 40px;
+  width: 89%;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.main-flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.left-row {
+  width: 89%;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px;
+}
 
 /* FOOTER CSS */
 
@@ -103,6 +124,7 @@ q:after {
   color: black;
   padding: 5px;
   width: 100px;
+  background-color: white;
 }
 
 .contact-buttons:hover {

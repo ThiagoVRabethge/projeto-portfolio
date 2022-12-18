@@ -13,22 +13,11 @@
   </head>
   <body>
     <header id="inicio">
-      <div class="header-container text-center">
-        <h1>Olá mundo!</h1>
-        <p><i>Apresentação</i></p>
-        <br />
-        <q>Atuação em desenvolvimento e manutenção de sistemas</q>
-        <div class="header-grid mt-20">
-          <div>
-            <a
-              href="public\CV_THIAGO_V_RABETHGE.pdf"
-              class="header-button"
-              download="currículo_thiago_v_rabethge.pdf"
-            >
-              Currículo
-            </a>
-          </div>
-          <div class="mt-15">
+      <div class="header-title text-center">
+        <h1>Thiago Volpi Rabethge</h1>
+        <p>software engineer</p>
+      </div>
+      <div class="header-body">
             <a
               class="header-button"
               href="public\CARTA_APRESENTAÇÃO_THIAGO_V_RABETHGE.pdf"
@@ -36,10 +25,23 @@
             >
               Carta de apresentação
             </a>
-          </div>
+        </div>
+    </header>
+
+    <main>
+      <div class="main-row">
+        <h2>Central agendamento</h2>
+        <p>projeto para agendamento de atendimentos nas secretarias da PMJ</p>
+        <a href="#">saiba mais</a>
+      </div>
+      <div class="main-flex">
+        <div class="left-row">
+          <h2>Projeto integrador</h2>
+          <p>projeto de conclusão de curso SENAC-SC</p>
+          <a href="#">saiba mais</a>
         </div>
       </div>
-    </header>
+    </main>
 
     <footer id="contato">
       <div class="container mt-20">
@@ -47,20 +49,18 @@
           action="https://formsubmit.co/thiago.rabethge@gmail.com"
           method="POST"
         >
-          <label for="email">Insira um e-mail para contato</label>
           <input
             name="email"
             class="contact-input"
             type="email"
-            placeholder="seu.email@email.com"
+            placeholder="Insira um e-mail para contato"
             required
           />
-          <label for="demand">Do que você precisa?</label>
           <input
             name="demand"
             class="contact-input"
             type="text"
-            placeholder="um site para meu negócio!"
+            placeholder="Do que você precisa?"
             required
           />
           <input
